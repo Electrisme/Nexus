@@ -1,0 +1,15 @@
+{
+  "name": "nexus-hub",
+  "version": "1.0.0-beta",
+  "private": true,
+  "description": "NEXUS: Telegram-controlled relay hub for ESP32 (Cloudflare Worker)",
+  "author": "Electrisme",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
