@@ -1,0 +1,21 @@
+# Cloudflare / Node
+node_modules/
+.wrangler/
+.dev.vars
+.env
+
+# Arduino build output
+build/
+*.bin
+*.elf
+
+# Private notes and secrets (never commit)
+secrets.h
+*.secrets.h
+NEXUS-*.md
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
